@@ -1,3 +1,36 @@
 p {
     font-family: 'Lato', sans-serif;
 }
+
+.navbar {
+    margin-bottom:0;
+}
+
+section {
+    width:100%; 
+    float:left;
+}
+
+.banner-section{
+    background-image:url(./background.jpg); 
+    height: 400px; 
+    left: 0; 
+    position: absolute; 
+    top: 0; 
+    background-position:0;
+}
+
+.post-title-block{
+    padding:100px 0;
+}
+
+.post-title-block h1 {
+    color: #fff; 
+    font-size: 80px; 
+    font-weight: bold; 
+}
+
+.post-title-block li{
+    font-size:20px; color: #fff;
+}
+
