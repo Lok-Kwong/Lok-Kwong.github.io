@@ -9,6 +9,7 @@ p {
 section {
     width:100%; 
     float:left;
+    
 }
 
 .banner-section{
@@ -30,7 +31,20 @@ section {
     font-weight: bold; 
 }
 
-.post-title-block li{
+.post-title-block li {
     font-size:20px; color: #fff;
 }
 
+footer {
+    float:left;
+    width:100%;
+    background:#222222;
+    text-align:center;
+    padding:15px;
+    margin-top: 20px;
+}
+
+footer p {
+    color:#fff; 
+    font-size:18px; 
+}
