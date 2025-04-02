@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  build: 'https://lok-kwong.github.io/'
+  build: "lok-portfolio"
 })

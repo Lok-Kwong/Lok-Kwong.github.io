@@ -1,11 +1,14 @@
 {
   "name": "Lok-website",
+  "homepage": "https://lok-kwong.github.io/lok-portfolio",
   "private": true,
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh pages -d dist"
   },
   "dependencies": {
     "@react-spring/parallax": "^9.4.4",
